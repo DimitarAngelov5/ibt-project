@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To Kill a Mockingbird - Book Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>To Kill a Mockingbird</h1>
+        <img src="assets/to_kill_a_mockingbird.jpg" alt="To Kill a Mockingbird">
+        <h2>Brief Description</h2>
+        <p>A novel by Harper Lee about racial injustice.</p>
+        <h2>Full Description</h2>
+        <p>To Kill a Mockingbird is a novel by Harper Lee published in 1960. It is widely studied in schools and is known for its themes of racial injustice and moral growth.</p>
+        <h2>Price: $12.99</h2>
+
+        <h2>Purchase Form</h2>
+        <form id="purchaseForm">
+            <label for="name">Name:</label>
+            <input type="text" id="nameInput" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+            <input type="submit" value="Purchase">
+        </form>
+
+        <h2>Submit Your Review</h2>
+        <form id="reviewForm">
+            <label for="review">Your Review:</label>
+            <textarea id="reviewInput" name="review" required></textarea>
+            <input type="submit" value="Submit Review">
+        </form>
+
+        <h2>User Reviews</h2>
+        <div id="reviewContainer">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>1984 - Book Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>1984</h1>
+        <img src="assets/1984.jpg" alt="1984">
+        <h2>Brief Description</h2>
+        <p>A dystopian novel by George Orwell.</p>
+        <h2>Full Description</h2>
+        <p>1984 is a dystopian social science fiction novel and cautionary tale, written by the English writer George Orwell. It explores the dangers of totalitarianism and extreme political ideology.</p>
+        <h2>Price: $8.99</h2>
+
+        <h2>Purchase Form</h2>
+        <form id="purchaseForm">
+            <label for="name">Name:</label>
+            <input type="text" id="nameInput" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+            <input type="submit" value="Purchase">
+        </form>
+
+        <h2>Submit Your Review</h2>
+        <form id="reviewForm">
+            <label for="review">Your Review:</label>
+            <textarea id="reviewInput" name="review" required></textarea>
+            <input type="submit" value="Submit Review">
+        </form>
+
+        <h2>User Reviews</h2>
+        <div id="reviewContainer">
+        </div>
+    </div>
+</body>
+
+</html>
